@@ -18,7 +18,7 @@ def display_banner():
 
 def main():
     display_banner()
-   # print('printing instructions')
+    print('printing instructions')
 
     sentence = input('Enter your sentence')
     output = camelcase(sentence)
